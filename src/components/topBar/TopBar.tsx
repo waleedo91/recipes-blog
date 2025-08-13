@@ -4,7 +4,7 @@ import "./TopBar.css";
 function TopBar() {
   return (
     <div>
-      <Navbar className="topBar" data-bs-theme="light" fixed="top">
+      <Navbar className="topBar" data-bs-theme="light" fixed="top" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#" className="nav-brand">
             Recipes
