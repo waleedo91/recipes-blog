@@ -1,0 +1,28 @@
+
+/* Function used to zoom into the photo. The photos will be changed later to reduce and optimize code. */
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.carousel-image {
+  height: 80vh;
+  object-fit: cover;
+  width: 100%;
+  animation: zoomIn 15s ease-in-out infinite alternate;
+}
+
+/* This is just an example for later to place the captions to different positions. */
+.carousel-caption {
+  top: 10px;
+  right: 10px;
+  left: auto;
+  text-align: right;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
