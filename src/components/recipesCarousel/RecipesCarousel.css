@@ -1,4 +1,3 @@
-
 /* Function used to zoom into the photo. The photos will be changed later to reduce and optimize code. */
 @keyframes zoomIn {
   0% {
@@ -18,11 +17,48 @@
 
 /* This is just an example for later to place the captions to different positions. */
 .carousel-caption {
-  top: 10px;
-  right: 10px;
-  left: auto;
-  text-align: right;
+  top: 20px;
+  text-align: left;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
+  height: 40%;
+  width: 80%;
+}
+
+@media (min-width: 992px) {
+  .caption1 {
+    top: 20px;
+    right: 20px;
+    left: auto;
+    width: 40%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 40%;
+    text-align: right;
+  }
+
+  .caption2 {
+    top: 20px;
+    left: 20px;
+    right: auto;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+    height: 40%;
+  }
+
+  .caption3 {
+    bottom: 60px;
+    top: 80px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    height: 30%;
+    width: 40%;
+    margin: 0 auto;
+  }
 }
