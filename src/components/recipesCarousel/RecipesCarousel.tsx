@@ -13,7 +13,7 @@ const RecipesCarousel = () => {
           <img className="carousel-image" src={food1} alt="First slide" />
           <Carousel.Caption className="caption1 carousel-caption">
             <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>hello how are you doing s interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
