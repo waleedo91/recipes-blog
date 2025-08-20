@@ -1,5 +1,5 @@
 .topBar {
-  background-color: red !important;
+  background: linear-gradient(to right, black, red);
 }
 
 .nav-brand {
@@ -27,4 +27,8 @@
 .search-button:hover {
   background-color: darkred;
   color: white;
+}
+
+.logo {
+  height: 10vh;
 }

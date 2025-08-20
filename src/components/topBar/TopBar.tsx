@@ -1,4 +1,5 @@
 import { Button, Container, Form, Nav, Navbar } from "react-bootstrap";
+import logo from "../../images/recipes-logo.png";
 import "./TopBar.css";
 
 function TopBar() {
@@ -7,7 +8,7 @@ function TopBar() {
       <Navbar className="topBar" data-bs-theme="light" fixed="top" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#" className="nav-brand">
-            Recipes
+            <img className="logo" src={logo} alt="Recipes logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">

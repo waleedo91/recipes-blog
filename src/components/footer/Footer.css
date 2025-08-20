@@ -1,5 +1,5 @@
 .footer-bar {
-  background-color: red;
+  background: linear-gradient(to right, black, red);
 }
 
 .footer-brand {

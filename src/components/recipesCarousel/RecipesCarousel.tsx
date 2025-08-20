@@ -2,6 +2,7 @@ import { Carousel } from "react-bootstrap";
 import food1 from "../../images/food.jpg";
 import food2 from "../../images/food2.jpg";
 import food3 from "../../images/food3.jpg";
+import logo from "../../images/recipes-logo.png";
 
 import "./RecipesCarousel.css";
 
@@ -11,9 +12,8 @@ const RecipesCarousel = () => {
       <Carousel className="carousel-container" interval={null}>
         <Carousel.Item>
           <img className="carousel-image" src={food1} alt="First slide" />
-          <Carousel.Caption className="caption1 carousel-caption">
-            <h3>First slide label</h3>
-            <p>hello how are you doing s interdum.</p>
+          <Carousel.Caption className="caption1  carousel-caption">
+            <img className="carousel-logo " src={logo} alt="Recipe's logo" />
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

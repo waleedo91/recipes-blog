@@ -7,23 +7,30 @@
     transform: scale(1.1);
   }
 }
-
 .carousel-image {
-  height: 80vh;
+  height: 77.4vh;
   object-fit: cover;
   width: 100%;
   animation: zoomIn 15s ease-in-out infinite alternate;
 }
 
+.carousel-logo {
+  height: 30vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* This is just an example for later to place the captions to different positions. */
 .carousel-caption {
   top: 20px;
+  left: 35px;
   text-align: left;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 10px;
   height: 40%;
   width: 80%;
+  margin-top: 60px;
 }
 
 @media (min-width: 992px) {
@@ -33,7 +40,7 @@
     left: auto;
     width: 40%;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
+
     height: 40%;
     text-align: right;
   }
